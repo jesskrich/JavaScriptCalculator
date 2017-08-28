@@ -3,7 +3,7 @@
 
 <head>
 <title>JSCalculator</title>
-<link rel = stylesheet type = "text/css" href = calculator.css>
+<link rel = stylesheet type = "text/css" href = styles.css>
 <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
 </head>
 
@@ -18,35 +18,35 @@
 <type = "button">
   <tr>
     <td class = "button clear" type = button onclick="clearDisplay()">C</td>
-    <td class = "button" type = button onclick="joinNums1('plusMinus')">+/-</td> 
+    <td class = "button" type = button onclick="joinNums1('plusMinus')">+/-</td>
     <td class = "button" type = button onclick="joinNums1('%')">%</td>
     <td class = "button operator" type = button onclick="joinNums1('/')">/</td>
   </tr>
   <tr>
     <td class = "button" type = button onclick="joinNums1(7)">7</td>
-    <td class = "button" type = button onclick="joinNums1(8)">8</td> 
+    <td class = "button" type = button onclick="joinNums1(8)">8</td>
     <td class = "button" type = button onclick="joinNums1(9)">9</td>
     <td class = "button operator" type = button onclick="joinNums1('*')">*</td>
   </tr>
     <tr>
     <td class = "button" type = button onclick="joinNums1(4)">4</td>
-    <td class = "button" type = button onclick="joinNums1(5)">5</td> 
+    <td class = "button" type = button onclick="joinNums1(5)">5</td>
     <td class = "button" type = button onclick="joinNums1(6)">6</td>
     <td class = "button operator" type = button id = "minus" onclick="joinNums1('-')">-</td>
   </tr>
       <tr>
     <td class = "button" type = button id = "one" onclick = "joinNums1(1)">1</td>
-    <td class = "button" type = button id = "two" onclick = "joinNums1(2)">2</td> 
+    <td class = "button" type = button id = "two" onclick = "joinNums1(2)">2</td>
     <td class = "button" type = button id = "three" onclick = "joinNums1(3)">3</td>
     <td class = "button operator" type = button onclick = "joinNums1('+')">+</td>
   </tr>
     <tr>
-    <td colspan = "2" type = button class = "button" id = "zero" onclick="joinNums1(0)">0</td> 
+    <td colspan = "2" type = button class = "button" id = "zero" onclick="joinNums1(0)">0</td>
     <td class = "button" type = button onclick="joinNums1('.')">.</td>
     <td class = "button clear" id = "equals" type = "button" onclick = "joinNums1('=')">=</td>
   </tr>
 </table>
 </div>
-<script src="calculator.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
